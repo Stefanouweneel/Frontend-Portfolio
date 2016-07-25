@@ -1,98 +1,178 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Stefan Ouweneel</title>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stefan Ouweneel</title>
+</head>
   <body>
      <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper cyan darken-3">
-          <a href="#" class="brand-logo center">SODevelopment</a>
+        <div class="nav-wrapper">
+          <a href="#welcome" class="brand-logo">SODevelopment</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="active"><a href="sass.html">Experience</a></li>
-            <li class="active"><a href="badges.html">Projects</a></li>
-            <li class="active"><a href="collapsible.html">Contact</a></li>
+            <li class="active"><a href="#projects">Projects</a></li>
+            <li class="active"><a href="#experience">Experience</a></li>
+            <li class="active"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <div class ="container">
+    <div class="iris">
+    <div id="welcome" class ="container">
       <div class ="row">
-        <h3>Welcome</h3>
-        <p>To my little space on the internet. Allow me to introduce myself.</p>
-        <p>My name is Stefan Ouweneel and I am a Full Stack Junior Developer from Utrecht, the Netherlands.
-           I am currently looking for an awesome company to join and develop my skills further and help them
-           reach new levels of awesomeness.</p>
-        <p>I have a background in marketing and communications that I would love to combine with my development
-           skills such as Ruby on Rails and ReactJS.</p>
-        <p>Check out some of my recent projects and get in touch for any further questions!</p>
-      </div>
-    </div>
-    <div class ="container">
-      <div class="row">
-        <div class="col s12 m5">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/office.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Project 1<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">project 2<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-            </div>
-          </div>
+        <div class="col s9"><br>
+          <h5>Welcome...</h4>
+          <p>...To my little space on the internet. My name is Stefan Ouweneel and I am a Full Stack Junior Developer from Utrecht, the Netherlands.</p>
+          <p>I am currently looking for an awesome company to join and develop my skills further and help them
+             reach new levels of awesomeness.</p>
+          <p>I have a background in marketing and communications that I would love to combine with my development
+             skills such as Ruby on Rails and ReactJS.</p>
+          <p>Check out some of my recent projects below and get in touch for any further questions!</p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m5">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/office.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-            </div>
-          </div>
+        <div class="col s3"><br><br><br>
+          <img width="125" src="images/profile.jpg"><br>
+          <ul>
+            <li><i class="fa fa-github-square"></i>  GitHub</li>
+            <li><i class="fa fa-linkedin-square"></i>  LinkedIn</li>
+            <li><i class="fa fa-envelope"></i>  Email</li>
+          </ul>
         </div>
       </div>
     </div>
-    <footer class="page-footer cyan darken-3">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+  </div>
+  <div class="divider"></div>
+    <div id="projects" class="container">
+      <div class="row"><br>
+        <h5>Projects</h5>
+        <p>Here are some of the projects that I've been working on. I used a wide variety of coding
+           to bring these to life, from vanilla JavaScript and ReactJS to Ruby on Rails.</p>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#test1">JavaScript Platformer</a></li>
+            <li class="tab col s3"><a href="#test2">Tic Tac React Game</a></li>
+            <li class="tab col s3" ><a href="#test3">Music Scraper</a></li>
+            <li class="tab col s3" ><a href="#test4">Social Media Platform</a></li>
+          </ul><br>
+        </div>
+        <div id="test1">
+          <div class="row">
+            <div class="col s5">
+              <img class="materialboxed" width="300" src="images/platformer.png">
+            </div>
+            <div class="col s7">
+              <h5>JavaScript Platformer</h5>
+              <p>A platform game made with a team of 3 in 1 day with vanilla JavaScript.</p>
+              <p><a href="https://consultant-fakes-78478.bitballoon.com">Check it out!</a></p>
+            </div>
           </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
+        </div>
+        <div id="test2">
+          <div class="row">
+            <div class="col s5">
+              <img class="materialboxed" width="300" src="images/tictacreact.png">
+            </div>
+            <div class="col s7">
+              <h5>Tic Tac React</h5>
+              <p>A solo project for a simple Tic Tac Toe game made with ReactJS.</p>
+              <p><a href="http://gatekeeper-ant-81228.bitballoon.com/">Check it out!</a></p>
+            </div>
+          </div>
+        </div>
+        <div id="test3">
+          <div class="row">
+            <div class="col s5">
+              <img class="materialboxed" width="300" src="images/musicscraper.png">
+            </div>
+            <div class="col s7">
+              <h5>Music Scraper</h5>
+              <p>A project made in 2 days with a group of 4 during a Hackathon at Codaisseur.</p>
+              <p>The concept was to create a website with Ruby on Rails that would gather information about the favourite artists of a user in one location.</p>
+              <p><a href="https://intense-basin-22468.herokuapp.com/">Check it out!</a></p>
+            </div>
+          </div>
+        </div>
+        <div id="test4">
+          <div class="row">
+            <div class="col s5">
+              <img class="materialboxed" width="300" src="images/welovefood.png">
+            </div>
+            <div class="col s7">
+              <h5>Social Media Platform</h5>
+              <p>A week project made in a group of 3 at Codaisseur.</p>
+              <p>The concept was to create a website with Ruby on Rails that would have the functionality of a social media platform with likes, comments and follows</p>
+              <p><a href="https://nameless-bastion-12616.herokuapp.com">Check it out!</a></p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="iris"><br>
+  <div id="experience" class="container">
+    <div class ="row">
+      <div class="col s12"><br>
+        <h5>Experience</h5>
+        <p>I have a wide variety of skills. Let me give you a glimpse of my experience and skills thusfar. If you would
+           would like to get the full picture, you can download my CV here.</p>
+            <a class="waves-effect waves-light btn">Download me!</a><br><br>
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Glimpse me!</a><br><br>
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <h5>Work Experience</h5>
+                <b>Junior Full Stack Web Developer Trainee</b>
+                <p>Codaisseur Academy - Amsterdam, the Netherlands - 2016</p>
+                <p>An intensive two-month Web Developer training program. This bootcamp trained me to be proficient
+                   with stacks composed of Ruby, Rails, JavaScript (incl. ES6), React, Ajax, HTML5, and CSS3 as well
+                   as standard practices such as TDD, API development, MVP designing, Basics of product development,
+                   UX design, and Domain modeling. During this program I worked together in teams using standard
+                   tools like Atom, Git, iTerm, TravisCI, and Slack.</p>
+                <b>Marketing & Communications Coordinator</b>
+                <p>KaVo Dental GmbH - Amersfoort, the Netherlands - April 2013 - June 2015</p>
+                <p>Coordinator of all marketing and communication activities for the BeNeLux region of
+                   KaVo Dental GmbH, a leading, German dental technology, instruments and equipment manufacturer.</p>
+                <h5>Academics</h5>
+                <b>Bachelor of Communication - International Communication and Media</b>
+                <p>University of Applied Sciences Utrecht - Utrecht, the Netherlands - 2008 - 2012</p>
+                <b>Communication & Business minor</b>
+                <p>University of Hertfordshire - Hatfield, United Kingdom - 2010 - 2011</p>
+                <b>IT Systems - Intermediate Vocational Education</b>
+                <p>ROC Aventus - Apeldoorn, the Netherlands - 2003 - 2007</p>
+                <h5>Skills</h5>
+              </div>
+            </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </div>
+  <div class="divider"></div>
+    <div id="contact" class="container">
+      <div class ="row">
+        <div class="col s12"><br><br>
+          <h5>Contact</h5>
+          <p>If you would like to receive any additional information or want to discuss a project or job that might be
+             right up my alley, please don't hesitate to get in touch! You can contact me through the following channels:<br>
+          <p>Github</p>
+          <p>Linkedin</p>
+          <p>Email</p>
+        </div><br><br>
+      </div>
+    </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://use.fontawesome.com/b748046452.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('.modal-trigger').leanModal();
+    });
+    </script>
   </body>
 </html>

@@ -2722,7 +2722,7 @@ ul li {
 }
 
 .divider {
-  height: 1px;
+  height: 3px;
   overflow: hidden;
   background-color: #e0e0e0;
 }
@@ -4134,7 +4134,7 @@ nav .brand-logo {
   color: #fff;
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0;
+  padding-left: 10;
   white-space: nowrap;
 }
 
@@ -4151,7 +4151,7 @@ nav .brand-logo.center {
             transform: translateX(-50%);
   }
   nav .brand-logo.left, nav .brand-logo.right {
-    padding: 0;
+    padding-left: 10px;
     -webkit-transform: none;
             transform: none;
   }
@@ -5068,7 +5068,7 @@ button.btn-floating {
 
 .dropdown-content li.divider {
   min-height: 0;
-  height: 1px;
+  height: 2px;
 }
 
 .dropdown-content li > a, .dropdown-content li > span {

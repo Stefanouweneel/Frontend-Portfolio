@@ -1,0 +1,71 @@
+.iris {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.iris::after {
+    content: "";
+    background-color: #cbb09c;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+nav .nav-wrapper {
+  position: relative;
+  height: 100%;
+  background-color: #4c7492;
+}
+
+.tabs .tab a {
+  color: #4c7492 !important;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: color .28s ease;
+}
+
+.tabs .tab a:hover {
+  color: #344f63 !important;
+}
+
+.tabs .tab.disabled a {
+  color: #344f63 !important;
+  cursor: default;
+}
+
+.tabs .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #344f63 !important;
+  will-change: left, right;
+}
+
+h5 {
+  color: #344f63;
+}
+
+.btn {
+  background-color: #344f63 !important;
+}
+
+nav .brand-logo {
+  font-size: 20px !important;
+  padding-left: 10px !important;
+}
