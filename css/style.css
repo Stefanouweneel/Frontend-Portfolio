@@ -141,3 +141,7 @@ img.gamepad {
 td, th {
   padding: 5px !important;
 }
+
+.profile-back {
+  background-color: #ff7256;
+}
