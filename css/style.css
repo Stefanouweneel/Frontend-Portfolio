@@ -145,3 +145,12 @@ td, th {
 .profile-back {
   background-color: #ff7256;
 }
+
+.work-icon {
+  width: 35px;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+}

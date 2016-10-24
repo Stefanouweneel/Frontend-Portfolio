@@ -6,11 +6,12 @@
   <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/slider.css"  media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <title>Stefan Ouweneel</title>
 </head>
   <body>
-     <div class="navbar-fixed">
+    <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
           <a href="#welcome" class="brand-logo">SODevelopment</a>
@@ -28,8 +29,7 @@
         <div class="col s7 m7 l7"><br>
           <h4>Welcome...</h4>
           <h5>...To my little space on the internet. My name is Stefan Ouweneel and I am a Full Stack Junior Developer from Utrecht, the Netherlands.</h5>
-          <p>I am currently looking for an awesome company to join and develop my skills further and help them
-             reach new levels of awesomeness.</p>
+          <p>I am currently looking for an awesome company to join and and help them reach new levels of awesomeness, while on a quest to continue and develop myself professionally and personally.</p>
           <p>Check out some of my recent projects and my CV below and get in touch for any further questions!</p>
         </div>
         <div class="col s4 m4 l4 profile-back accent-1 z-depth-2 offset-s1 offset-m1 offset-l1 center">
@@ -39,6 +39,35 @@
           <a class="contact" href="mailto:stefanouweneel@gmail.com"><i class="fa fa-envelope fa-2x"></i></a><br><br>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+      <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+        <div data-p="225.00">
+          <img data-u="image" src="images/musicscrapertest.jpg" />
+          <div class="banner-header">Music Scraper</div>
+          <div class="banner-text">
+            <p>A project made in 2 days with a group of 4 during a Hackathon at Codaisseur Academy.</p>
+            <p>The concept was to create a website with Ruby on Rails that would gather information about the favourite artists of a user in one location.
+               We used gems like Nokogiri as well as the Twitter and Google API.</p>
+            <p>We are currently continuing to develop this website to enhance its functionality and to offer a wider variaty of information.</p>
+            <p class="valign-wrapper"><a class="btn" target="_blank" href="https://tmf-revived.herokuapp.com">Check it out!</a>&nbsp; &nbsp;
+            <a class="contact valign" href="https://github.com/Stefanouweneel/music_hackathon"><i class="fa fa-github-square fa-2x"></i></a></p>
+          </div>
+        </div>
+        <div data-p="225.00">
+          <img data-u="image" src="images/purple.jpg" />
+        </div>
+        <div data-p="225.00" data-po="80% 55%" style="display: none;">
+          <img data-u="image" src="images/blue.jpg" />
+        </div>
+      </div>
+      <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+        <div data-u="prototype" style="width:16px;height:16px;"></div>
+      </div>
+      <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+      <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
     </div>
   </div>
   <div class="divider"></div>
@@ -126,7 +155,12 @@
     <div class ="row higher">
       <div class="col s7 m7 l7">
         <h4>Experience</h4><br>
-        <p>I have a wide variety of skills and experience in web development, multimedia and marketing.
+        <p>I have a wide variety of skills and experience in:
+          <ul>
+            <li><p class="work"><img class="work-icon" src="images/webdevicon.gif"> &nbsp; Web development </p></li>
+            <li><p class="work"><img class="work-icon" src="images/webdesignicon.gif"> &nbsp; Multimedia </p></li>
+            <li><p class="work"><img class="work-icon" src="images/marketingicon.gif"> &nbsp; Marketing & Communications </p></li>
+          </ul>
            To get a glimpse of what I have to offer or if you would like to get the full picture, click below:</p><br>
            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">At a glance</a> &nbsp; &nbsp;
            <a class="waves-effect waves-light btn" target="_blank" href="http://sodevelopment.com/Stefan%20Ouweneel%20-%20CV%20English.pdf">Download cv</a>
@@ -229,11 +263,12 @@
                   </div>
               </div>
             </div>
-        </div><br><br>
-        <div class="col s4 m4 l4 deep-orange accent-1 z-depth-2 offset-s1 offset-m1 offset-l1">
+        </div>
+        <div class="col s4 m4 l4 offset-s1 offset-m1 offset-l1">
           <blockquote>
-            <h4>Fun fact</h4>
-            <h5>15 years ago I made my first website: a webshop made with PHP!</h5>
+            <h4>Fun fact</h4><br>
+            <h5>15 years ago I made my first website: a webshop made with PHP!<br><br>
+            Now I'm right back in it, full circle!</h5>
           </blockquote>
         </div>
       </div>
@@ -260,6 +295,8 @@
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>
+    <script src="js/slider-query.js" type="text/javascript"></script>
     <script src="https://use.fontawesome.com/b748046452.js"></script>
     <script>
       $(document).ready(function() {
