@@ -14,9 +14,16 @@ h5 {
   line-height: 150% !important;
 }
 
-h4 {
+.welcome-h {
+  color: #F1A71E;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.welcome-p {
   color: #344f63;
-  font-size: 30px !important;
+  font-size: 30px;
+  line-height: 45px;
 }
 
 blockquote {
@@ -35,28 +42,25 @@ nav .brand-logo {
 }
 
 img.zorro {
-  margin-left: auto;
-  margin-right: auto;
-  width: 165px;
-  display: block;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  width: 200px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 a.contact:link {
-    color: #344f63;
+  color: #344f63;
 }
 
 a.contact:visited {
-    color: #344f63;
+  color: #344f63;
 }
 
 a.contact:hover {
-    color: #ff6e40;
+  color: #fff;
 }
 
 a.contact:active {
-    color: #344f63;
+  color: #344f63;
 }
 
 i.contact {
@@ -91,14 +95,14 @@ td, th {
 .main-content {
   background: #fff;
   width: 55%;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-bottom: 3%;
   padding-left: 10%;
   padding-right: 10%;
 }
 
 .side-content {
-  background: #A8373C;
+  background: #F1A71E;
   color: #fff;
   width: 45%;
   padding-top: 3%;
