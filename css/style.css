@@ -5,7 +5,11 @@ body {
 nav .nav-wrapper {
   position: relative;
   height: 100%;
-  background-color: #4c7492;
+  background-color: #fff;
+}
+
+.nav-font {
+  color: #344f63;
 }
 
 h5 {
@@ -38,13 +42,17 @@ blockquote {
 
 nav .brand-logo {
   font-size: 20px !important;
-  padding-left: 10px !important;
+  color: #344f63 !important;
+  padding-left: 3% !important;
 }
 
-img.zorro {
-  width: 200px;
-  padding-top: 100px;
-  padding-bottom: 50px;
+.nav-button {
+  margin-left: 50px;
+  background-color: #fff !important;
+}
+
+img.profile {
+  width: 100%;
 }
 
 a.contact:link {
@@ -95,7 +103,7 @@ td, th {
 .main-content {
   background: #fff;
   width: 55%;
-  padding-top: 1%;
+  padding-top: 5%;
   padding-bottom: 3%;
   padding-left: 10%;
   padding-right: 10%;
@@ -111,10 +119,76 @@ td, th {
   padding-right: 10%;
 }
 
+.profile-content {
+  background-image: url(../images/profile.jpg);
+  background-size: contain;
+  width: 45%;
+}
+
 .bottom-content {
   width: 100%;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.left {
+  padding-left: 10% !important;
+}
+
+.top-divider {
+  margin-bottom: 30px;
+}
+
+.button-collapse {
+  color: black !important;
+}
+
+.project-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.project-content {
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.p-color {
+  color: #344f63;
+}
+
+.project-img {
+  width: 100px;
+}
+
+.slide-text {
+  padding-left: 6%;
+  padding-top: 3%;
+  text-align: left;
+  font-size: 20px;
+  color: #344f63;
+}
+
+.slide-panel {
+  background: rgba(255, 255, 255, .7);
+  width: 35%;
+  height: 85%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.btn-panel {
+  background: rgba(255, 255, 255, 0);
+}
+
+.slide-btn {
+  font-size: 12px;
+  width: 15%;
+  margin-left: 2%;
 }

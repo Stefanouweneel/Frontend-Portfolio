@@ -3,40 +3,44 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-  <link type="text/css" rel="stylesheet" href="css/slider.css"  media="screen,projection"/>
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/devicons.css"/>
+  <link type="text/css" rel="stylesheet" href="css/devicons.min.css"/>
+  <link type="text/css" rel="stylesheet" href="css/devicons.scss"/>
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen"/>
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/thumbnail-slider.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/thumbs2.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
   <title>Stefan Ouweneel Development</title>
 </head>
   <body>
     <div class="navbar-fixed">
-      <nav>
+      <nav class="z-depth-0">
         <div class="nav-wrapper">
-          <a href="#welcome" class="brand-logo">SODevelopment</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="active"><a href="#projects">Projects</a></li>
-            <li class="active"><a href="#experience">Experience</a></li>
-            <li class="active"><a href="#contact">Contact</a></li>
+          <a class="brand-logo left" href="#welcome">SO;</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="#projects" class="nav-font">Projects</a></li>
+            <li class="nav-button"><a href="#experience" class="nav-font">Experience</a></li>
+            <li class="nav-button"><a href="#contact" class="nav-font">Contact</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
     </div>
     <div id="welcome">
       <div class="wrapper">
-        <div class="main-content"><br>
+        <div class="main-content">
           <h4 class="welcome-h">Hey!</h4>
-          <p class="welcome-p">Welcome to my little space on the internet. I'm Stefan Ouweneel - a Full Stack Junior Developer from Utrecht, the Netherlands.</h5>
-          <p>I am currently looking for an awesome company to join and and help them reach new levels of awesomeness, while on a quest to continue and develop myself professionally and personally.</p>
-          <p>Check out some of my recent projects and my CV below and get in touch for any further questions!</p><br>
-          <div class="divider"></div>
+          <p class="welcome-p">I'm Stefan Ouweneel - a Full Stack Junior Developer from Utrecht, the Netherlands.</p>
+          <p>I am currently looking for an awesome company and team to join so that I can bring my developer skills to the next level, while helping to bring the company to new levels of awesomeness.</p>
         </div>
-        <div class="side-content center">
-          <img class="zorro" src="images/profile.jpg"><br>
-          <a class="contact" href="https://github.com/Stefanouweneel"><i class="fa fa-github-square fa-4x"></i></a>&nbsp; &nbsp;
-          <a class="contact" href="https://nl.linkedin.com/in/stefan-ouweneel-42133930"><i class="fa fa-linkedin-square fa-4x"></i></a>&nbsp; &nbsp;
-          <a class="contact" href="mailto:stefanouweneel@gmail.com"><i class="fa fa-envelope fa-4x"></i></a>
+        <div class="profile-content center">
         </div>
       </div>
     </div>
@@ -45,39 +49,69 @@
         <div class="main-content">
           <h4 class="welcome-h">Projects</h4><br>
           <p>Below you can find some of the projects that I've been working on. I used a wide variety of technologies
-             to bring these projects to life, from vanilla JavaScript and ReactJS to Ruby on Rails together with front-end
-             technologies such as HTML5, SASS, CSS3, JavaScript and React.JS.</p>
+             to bring these projects to life, from Ruby on Rails and Postgresql on the backend to
+             technologies such as HTML5, SASS, CSS3, JavaScript and React.JS on the frontend.</p><br>
+             <i class="devicons devicons-css3_full" title="CSS3"></i>
+             <i class="devicons devicons-html5" title="HTML5"></i>
+             <i class="devicons devicons-javascript" title="JavaScript"></i>
+             <i class="devicons devicons-react" title="React.JS"></i>
+             <i class="devicons devicons-ruby_on_rails" title="Ruby on Rails"></i>
+             <i class="devicons devicons-ruby" title="Ruby"></i>
+             <i class="devicons devicons-postgresql" title="Postgresql"></i>
         </div>
-        <div class="side-content">
+        <div class="side-content"><br><br>
           <h4>Fun fact</h4><br>
-          <p>15 years ago I made my first website: a webshop made with PHP!</p>
+          <p class="p-color">15 years ago I made my first website: a webshop made with PHP!</p>
+          <i class="devicons devicons-php" title="PHP"></i>
         </div>
       </div>
-      <div id="jssor_1">
-        <div data-u="slides" class="slides">
-          <div data-p="225.00">
-            <img data-u="image" src="images/musicscrapertest.jpg" />
-            <div class="banner-header">Music Scraper</div>
-            <div class="banner-text">
-              <p>A project made in 2 days with a group of 4 during a Hackathon at Codaisseur Academy.</p>
-              <p>The concept was to create a website with Ruby on Rails that would gather information about the favourite artists of a user in one location.
-                 We used gems like Nokogiri as well as the Twitter and Google API.</p>
-              <p>We are currently continuing to develop this website to enhance its functionality and to offer a wider variaty of information.</p>
-              <p class="valign-wrapper"><a class="btn" target="_blank" href="https://tmf-revived.herokuapp.com">Check it out!</a>&nbsp; &nbsp;
-              <a class="contact valign" href="https://github.com/Stefanouweneel/music_hackathon"><i class="fa fa-github-square fa-2x"></i></a></p>
+      <div class="project-wrapper">
+        <div class="project-content">
+          <div id="thumbnail-slider">
+            <div class="inner">
+              <ul>
+                <li>
+                  <a class="thumb" href="images/musicbanner.jpg"></a>
+                </li>
+                <li>
+                  <a class="thumb" href="images/platformer.png"></a>
+                </li>
+                <li>
+                  <a class="thumb" href="images/tictacreact.png"></a>
+                </li>
+                <li>
+                  <a class="thumb" href="images/welovefood.png"></a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div data-p="225.00">
-            <img data-u="image" src="images/purple.jpg" />
+          <div id="thumbs2" style="display:none;">
+            <div class="inner">
+              <ul>
+                <li>
+                  <a class="thumb" href="images/musicbanner.jpg">
+                    <div class="slide-panel">
+                      <p class="slide-text">Music Scraper</p>
+                    </div>
+                  </a>
+                </li>
+                <div class="btn-panel center">
+                  <a class="btn slide-btn center" target="_blank" href="https://tmf-revived.herokuapp.com">Live version</a>&nbsp; &nbsp;
+                  <a class="btn slide-btn center" target="_blank" href="https://github.com/Stefanouweneel/music_hackathon">Github</a>
+                </div>
+                <li>
+                  <a class="thumb" href="images/platformer.png"></a>
+                </li>
+                <li>
+                  <a class="thumb" href="images/tictacreact"></a>
+                </li>
+                <li>
+                  <a class="thumb" href="images/welovefood.png"></a>
+                </li>
+              </ul>
+            </div>
+            <div id="closeBtn">Close</div>
           </div>
-          <div data-p="225.00" data-po="80% 55%" style="display:none;">
-            <img data-u="image" src="images/blue.jpg" />
-          </div>
-          <div data-u="navigator" class="jssorb05" data-autocenter="1">
-            <div data-u="prototype"></div>
-          </div>
-          <span data-u="arrowleft" class="jssora22l" data-autocenter="2"></span>
-          <span data-u="arrowright" class="jssora22r" data-autocenter="2"></span>
         </div>
       </div>
     </div>
@@ -85,7 +119,7 @@
       <div class="wrapper">
         <div class="main-content">
           <h4 class="welcome-h">Experience</h4><br>
-          <p>My diverse background has given me a rich variety of skills and experience in:</p>
+          <p>My diverse background has given me a rich variety of skills and experience, which gives me a unique perspective on many web development issues. My experience so far includes:</p>
             <ul>
               <li><p class="work"><img class="work-icon" src="images/webdevicon.gif"> &nbsp; Web development </p></li>
               <li><p class="work"><img class="work-icon" src="images/webdesignicon.gif"> &nbsp; Multimedia </p></li>
@@ -191,33 +225,33 @@
             </div>
           </div>
         </div>
-        <div class="side-content">
-          <p>To get a glimpse of what I have to offer or if you would like to get the full picture, click below:</p><br>
+        <div class="side-content"><br><br>
+          <h4>Get the full picture</h4><br>
+          <p class="p-color">To get a glimpse of what I have to offer or if you would like to get the full picture, click below:</p><br>
             <a class="waves-effect waves-light btn modal-trigger" href="#modal1">At a glance</a>
             <a class="waves-effect waves-light btn" target="_blank" href="http://sodevelopment.com/Stefan%20Ouweneel%20-%20CV%20English.pdf">Full CV</a>
         </div>
       </div>
     </div>
-    <div class="divider"></div>
     <div id="contact">
       <div class="bottom-content">
-      <h4 class="welcome-h">Contact</h4><br>
-      <p>If you would like to receive any additional information or want to discuss a project or job that might be
-         right up my alley, please don't hesitate to get in touch! You can contact me through the following channels:<br>
-         <a class="contact" href="https://github.com/Stefanouweneel"><i class="fa fa-github-square fa-5x contact"></i></a>
-         <a class="contact" href="https://nl.linkedin.com/in/stefan-ouweneel-42133930"><i class="fa fa-linkedin-square fa-5x contact"></i></a>
-         <a class="contact" href="mailto:stefanouweneel@gmail.com"><i class="fa fa-envelope fa-5x contact"></i></a>
-       </p>
+        <h4 class="welcome-h">Contact</h4><br>
+        <p>If you would like to receive any additional information or want to discuss a project or job that might be
+           right up my alley, please don't hesitate to get in touch! You can contact me through the following channels:<br>
+           <a class="contact" href="https://github.com/Stefanouweneel"><i class="fa fa-github-square fa-5x contact"></i></a>
+           <a class="contact" href="https://nl.linkedin.com/in/stefan-ouweneel-42133930"><i class="fa fa-linkedin-square fa-5x contact"></i></a>
+           <a class="contact" href="mailto:stefanouweneel@gmail.com"><i class="fa fa-envelope fa-5x contact"></i></a>
+         </p>
+       </div>
+     </div>
+    <div class="divider"></div>
+    <div class="bottom-content">
+      <p>©Stefan Ouweneel - Utrecht, the Netherlands - 2016</p>
     </div>
-  </div>
-  <div class="divider"></div>
-  <div class="bottom-content">
-    <p>©Stefan Ouweneel - Utrecht, the Netherlands - 2016</p>
-  </div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>
-  <script src="js/slider-query.js" type="text/javascript"></script>
+  <script src="js/thumbnail-slider.js" type="text/javascript"></script>
+  <script src="js/thumb-slider.js" type="text/javascript"></script>
   <script src="https://use.fontawesome.com/b748046452.js"></script>
   <script>
     $(document).ready(function() {
