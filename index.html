@@ -40,21 +40,40 @@
         </div>
         <div class="block-wrapper">
           <div class="block-one">
+            <!-- <div class="block-h">+</div> -->
             <h4 class="block">I love:</h4>
-            <img class="intro-icon" src="images/audio.png">
-            <img class="intro-icon" src="images/physics.png"><br>&nbsp; Music &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Science
-            <h4>+</h4>
+            <table>
+              <tr>
+                <th class="block"><img class="intro-icon" src="images/audio.png"></th>
+                <th class="block"><img class="intro-icon" src="images/physics.png"></th>
+              </tr>
+              <tr>
+                <td class="block">Music</td>
+                <td class="block">Science</td>
+              </tr>
+            </table>
           </div>
           <div class="block-two">
           </div>
           <div class="block-three">
+            <!-- <div class="block-h-two">+</div> -->
+            <table>
+              <tr>
+                <th class="block"><img class="intro-icon" src="images/spaguetti.png"></th>
+                <th class="block"><img class="intro-icon" src="images/coffee-1.png"></th>
+              </tr>
+              <tr>
+                <td class="block">Food</td>
+                <td class="block">Coffee</td>
+              </tr>
+            </table>
           </div>
           <div class="block-four">
             <p>Web Development, Design and Communications</p>
             <ul>
-              <hr class="one"></hr>
+              <!-- <hr class="one"></hr>
               <hr class="two"></hr>
-              <hr class="three"></hr>
+              <hr class="three"></hr> -->
               <li><img class="intro-icon-one" src="images/laptop-1.png"></li>
               <li><img class="intro-icon-two" src="images/screen-1.png"></li>
               <li><img class="intro-icon-three" src="images/analytics.png"></li>
@@ -63,6 +82,7 @@
         </div>
       </div>
     </div>
+    <div class="divider bottom-divider"></div>
     <div id="projects">
       <div class="wrapper">
         <div class="main-content">
@@ -81,12 +101,13 @@
              <i class="devicons devicons-postgresql" title="Postgresql"></i> -->
         </div>
         <div class="side-content">
-          <h4>Fun fact</h4>
-          <p>14 years ago I made a complete web shop in PHP for a school project.</p>
-          <i class="devicons devicons-php" title="PHP"></i>
+          <h4>Fun facts</h4>
+          <blockquote><p class="p-color">I developed my HTML skills on the Facebook predecessor CU2, to build my profile.</p></blockquote>
+          <blockquote><p class="p-color">14 years ago I made a complete web shop in PHP for a school project.</p></blockquote>
+          <blockquote><p class="p-color">I decided I wanted to become a web developer when I assisted in buiding the new corporate website during my time as Marketing & Communications Coordinator.</p></blockquote>
         </div>
       </div>
-      <div class="divider bottom-divider"></div>
+      <div class="divider project-divider"></div>
       <div class="project-wrapper">
         <div class="project-nav-one">
         </div>
@@ -96,7 +117,7 @@
             <i class="devicons devicons-html5-two" title="HTML5"></i>
             <i class="devicons devicons-css3_full_two" title="CSS3"></i>
           </h5>
-          <p class="p-project">The concept was to create a website that would gather information about the favourite artists of a user in one location.</p>
+          <p class="p-project">The concept was to create a website that would gather information from external sources about the favourite artists of a user in one location.</p>
           <p class="valign-wrapper"><a class="btn btn-project waves-effect waves-light" target="_blank" href="https://tmf-revived.herokuapp.com">Check it out!</a>&nbsp; &nbsp;
           <a class="contact valign" href="https://github.com/Stefanouweneel/music_hackathon"><i class="fa fa-github-square fa-2x"></i></a></p>
         </div>
@@ -112,7 +133,7 @@
             <i class="devicons devicons-react-two" title="React.JS"></i>
             <i class="devicons devicons-css3_full_two" title="CSS3"></i>
           </h5>
-          <p class="p-project">The objective was to gain a firm understanding of React and its possibilities, for which this game is perfect to make.</p>
+          <p class="p-project">A project to gain a firm understanding of React and its possibilities and functionalities. The game incorporates all the basic elements of a React App.</p>
           <p class="valign-wrapper"><a class="btn btn-project waves-effect waves-light" target="_blank" href="http://gatekeeper-ant-81228.bitballoon.com/">Check it out!</a>&nbsp; &nbsp;
           <a class="contact valign" href="https://github.com/Stefanouweneel/Tic-Tac-Toe-React"><i class="fa fa-github-square fa-2x"></i></a></p>
         </div>
@@ -128,7 +149,7 @@
             <i class="devicons devicons-javascript-two" title="JavaScript"></i>
             <i class="devicons devicons-css3_full_two" title="CSS3"></i>
           </h5>
-          <p class="p-project">A platform game with challenging rules to make it interesting, such as a gravity switch and an event that switches your jump key!</p>
+          <p class="p-project">A vanilla JavaScript platform game with challenging rules to make it interesting, such as a gravity switch and an event that switches your jump key!</p>
           <p class="valign-wrapper"><a class="btn btn-project waves-effect waves-light" target="_blank" href="https://consultant-fakes-78478.bitballoon.com">Check it out!</a>&nbsp; &nbsp;
           <a class="contact valign" href="https://github.com/Stefanouweneel/JavaScript-Platformer"><i class="fa fa-github-square fa-2x"></i></a></p>
         </div>
@@ -146,7 +167,7 @@
             <i class="devicons devicons-html5-two" title="HTML5"></i>
             <i class="devicons devicons-css3_full_two" title="CSS3"></i>
           </h5>
-          <p class="p-project">The concept was to create a website with Ruby on Rails that would have the functionality of a social media platform with likes, comments and follows to illustrate and understand the capabilities of Rails.</p>
+          <p class="p-project">The objective was to create a website using Ruby on Rails that would have the functionalities of a social media platform such as likes, comments and follows.</p>
           <p class="valign-wrapper"><a class="btn btn-project waves-effect waves-light" target="_blank" href="https://nameless-bastion-12616.herokuapp.com">Check it out!</a>&nbsp; &nbsp;
           <a class="contact valign" href="https://github.com/Stefanouweneel/welovefood"><i class="fa fa-github-square fa-2x"></i></a></p>
         </div>
@@ -265,14 +286,15 @@
             </div>
           </div>
         </div>
-        <div class="side-content">
+        <div class="side-content-two">
           <h4>Get the full picture</h4><br>
           <p class="p-color">To get a glimpse of what I have to offer or if you would like to get the full picture, click below:</p><br>
-            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">At a glance</a>
-            <a class="waves-effect waves-light btn" target="_blank" href="http://sodevelopment.com/Stefan%20Ouweneel%20-%20CV%20English.pdf">Full CV</a>
+            <a class="btn modal-trigger" href="#modal1">At a glance</a>
+            <a class="btn" target="_blank" href="http://sodevelopment.com/Stefan%20Ouweneel%20-%20CV%20English.pdf">Full CV</a>
         </div>
       </div>
     </div>
+    <div class="divider project-divider"></div>
     <div id="contact">
       <div class="bottom-content">
         <h4 class="welcome-h">Contact</h4><br>
@@ -286,7 +308,8 @@
      </div>
     <div class="divider"></div>
     <div class="footer-content">
-      <p>©Stefan Ouweneel - Utrecht, the Netherlands - 2016</p>
+      <p style="float:right;margin-right:10%;">Icons courtesy of http://www.flaticon.com/</p>
+      <p style="float:left;">©Stefan Ouweneel - Utrecht, the Netherlands - 2016</p>
     </div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
