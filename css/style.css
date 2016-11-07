@@ -13,13 +13,25 @@ nav .nav-wrapper {
 }
 
 h5 {
-  color: #344f63;
+  color: #F1A71E;
   font-size: 16px !important;
   line-height: 150% !important;
+  font-weight: bold;
+}
+
+h4.block {
+  color: #fff;
+  font-size: 22px;
 }
 
 .welcome-h {
   color: #F1A71E;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.side-h {
+  color: #fff;
   font-size: 50px;
   padding-bottom: 20px;
 }
@@ -40,9 +52,17 @@ blockquote {
   color: white !important;
 }
 
+.btn-project {
+  background-color: #344f63 !important;
+  color: white !important;
+  height: 26px !important;
+  font-size: 0.7rem !important;
+  line-height: 26px !important;
+}
+
 nav .brand-logo {
   font-size: 20px !important;
-  color: #344f63 !important;
+  color: #F1A71E !important;
   padding-left: 3% !important;
 }
 
@@ -64,7 +84,7 @@ a.contact:visited {
 }
 
 a.contact:hover {
-  color: #fff;
+  color: #778899;
 }
 
 a.contact:active {
@@ -72,13 +92,8 @@ a.contact:active {
 }
 
 i.contact {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  padding-right: 50px;
-}
-
-img.gamepad {
-  padding-left: 10px;
+  padding-top: 30px;
+  padding-right: 30px;
 }
 
 td, th {
@@ -87,6 +102,38 @@ td, th {
 
 .work-icon {
   width: 35px;
+}
+
+.intro-icon {
+  width: 60px;
+  margin: 10px;
+}
+
+.intro-icon-three {
+  width: 50px;
+  position: absolute;
+  z-index: 1;
+  top: 66%;
+  right: 0%;
+  left: 73%;
+}
+
+.intro-icon-one {
+  width: 50px;
+  position: absolute;
+  z-index: 1;
+  top: 14%;
+  right: 0%;
+  left: 41%;
+}
+
+.intro-icon-two {
+  width: 50px;
+  position: absolute;
+  z-index: 1;
+  top: 66%;
+  right: 0%;
+  left: 8%;
 }
 
 .work {
@@ -113,15 +160,71 @@ td, th {
   background: #F1A71E;
   color: #fff;
   width: 45%;
-  padding-top: 3%;
+  padding-top: 6%;
   padding-bottom: 3%;
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.profile-content {
+.block-wrapper {
+  width: 45%;
+}
+
+.block-one {
+  background: #668B8B;
+  color: #fff;
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 10%;
+  padding-left: 6%;
+  padding-right: 6%;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.block-two {
   background-image: url(../images/profile.jpg);
   background-size: contain;
+  color: #fff;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.block-three {
+  background: #344f63;
+  color: #fff;
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.block-four {
+  background: #698da6;
+  color: #fff;
+  text-align: center;
+  padding-top: 16.5%;
+  padding-bottom: 6%;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 50%;
+  height: 50%;
+  float: left;
+  position: relative;
+}
+
+.profile-content {
+  background: #F1A71E;
   width: 45%;
 }
 
@@ -133,12 +236,27 @@ td, th {
   padding-right: 10%;
 }
 
+.footer-content {
+  width: 100%;
+  padding-left: 10%;
+  font-size: 12px;
+}
+
 .left {
   padding-left: 10% !important;
 }
 
-.top-divider {
-  margin-bottom: 30px;
+.project-divider {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.top-diviver {
+  margin-top: 10px;
+}
+
+.bottom-divider {
+  margin-bottom: 10px;
 }
 
 .button-collapse {
@@ -151,16 +269,108 @@ td, th {
   height: 100%;
 }
 
-.project-content {
-  width: 100%;
+.project-one {
+  background-image: url(../images/musicscraper.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid #d3d3d3;
+  padding: 2%;
+  width: 45%;
+  height: 300px;
+}
+
+.project-two {
+  background-image: url(../images/tictactoe.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid #d3d3d3;
+  width: 45%;
+  height: 280px;
+}
+
+.project-three {
+  background-image: url(../images/confuzr.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid #d3d3d3;
+  width: 45%;
+  height: 300px;
+}
+
+.project-four{
+  background-image: url(../images/welovefoods.png);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  border: 1px solid #d3d3d3;
+  width: 45%;
+  height: 300px;
+}
+
+.project-side {
+  width: 50%;
   padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: block;
+}
+
+.project-side-one {
+  width: 50%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.project-side-two {
+  width: 50%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.project-side-three {
+  width: 50%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.project-side-four {
+  width: 50%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.project-nav-one {
+  width: 5%;
+}
+
+.project-nav-two {
+  width: 5%;
+}
+
+.project-nav-three {
+  width: 5%;
+}
+
+.project-nav-four {
+  width: 5%;
 }
 
 .p-color {
   color: #344f63;
+}
+
+.p-project {
+  color: #344f63;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .project-img {
@@ -191,4 +401,33 @@ td, th {
   font-size: 12px;
   width: 15%;
   margin-left: 2%;
+}
+
+hr.one {
+  transform: rotate(50deg);
+  width: 65%;
+  position: absolute;
+  z-index: 0;
+  top: 40%;
+  right: 0%;
+  left: 30%;
+}
+
+hr.two {
+  transform: rotate(130deg);
+  width: 65%;
+  position: absolute;
+  z-index: 0;
+  top: 40%;
+  right: 30%;
+  left: 0%;
+}
+
+hr.three {
+  width: 60%;
+  position: absolute;
+  z-index: 0;
+  top: 73%;
+  right: 0%;
+  left: 0%;
 }
