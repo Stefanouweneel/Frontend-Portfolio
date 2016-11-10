@@ -24,36 +24,8 @@ h4.block {
   font-size: 22px;
 }
 
-.block-h {
-  color: #fff;
-  font-size: 70px;
-  position: absolute;
-  z-index: 10;
-  top: 46%;
-  right: 0%;
-  left: 33%;
-  opacity: 0.8;
-}
-
-.block-h-two {
-  color: #fff;
-  font-size: 70px;
-  position: absolute;
-  z-index: 10;
-  top: 67%;
-  right: 0%;
-  left: 55%;
-  opacity: 0.8;
-}
-
 .welcome-h {
   color: #F1A71E;
-  font-size: 50px;
-  padding-bottom: 20px;
-}
-
-.side-h {
-  color: #fff;
   font-size: 50px;
   padding-bottom: 20px;
 }
@@ -91,10 +63,6 @@ nav .brand-logo {
 .nav-button {
   margin-left: 50px;
   background-color: #fff !important;
-}
-
-img.profile {
-  width: 100%;
 }
 
 a.contact:link {
@@ -263,11 +231,6 @@ th.block {
   position: relative;
 }
 
-.profile-content {
-  background: #F1A71E;
-  width: 45%;
-}
-
 .bottom-content {
   width: 100%;
   padding-top: 3%;
@@ -288,10 +251,6 @@ th.block {
 
 .project-divider {
   margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.top-diviver {
   margin-top: 10px;
 }
 
@@ -411,36 +370,6 @@ th.block {
   color: #344f63;
   padding-top: 3%;
   padding-bottom: 3%;
-}
-
-.project-img {
-  width: 100px;
-}
-
-.slide-text {
-  padding-left: 6%;
-  padding-top: 3%;
-  text-align: left;
-  font-size: 20px;
-  color: #344f63;
-}
-
-.slide-panel {
-  background: rgba(255, 255, 255, .7);
-  width: 35%;
-  height: 85%;
-  margin-left: 2%;
-  margin-top: 2%;
-}
-
-.btn-panel {
-  background: rgba(255, 255, 255, 0);
-}
-
-.slide-btn {
-  font-size: 12px;
-  width: 15%;
-  margin-left: 2%;
 }
 
 hr.one {
