@@ -145,15 +145,6 @@ th.block {
   height: 100%;
 }
 
-.main-content {
-  background: #fff;
-  width: 55%;
-  padding-top: 5%;
-  padding-bottom: 3%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 .side-content {
   background: #F1A71E;
   color: #fff;
@@ -202,6 +193,15 @@ th.block {
   width: 50%;
   height: 50%;
   float: left;
+}
+
+.main-content {
+  background: #fff;
+  width: 55%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .block-three {
@@ -399,4 +399,60 @@ hr.three {
   top: 73%;
   right: 0%;
   left: 0%;
+}
+
+@media screen and (max-width: 1000px) {
+  .block-wrapper {
+    display: none;
+  }
+  .side-content {
+    display: none;
+  }
+  .project-one {
+    display: none;
+  }
+  .project-two {
+    display: none;
+  }
+  .project-three {
+    display: none;
+  }
+  .project-four {
+    display: none;
+  }
+  .side-content-two {
+    display: none;
+  }
+  .project-side-one {
+    width: 100%;
+  }
+  .project-side-two {
+    width: 100%;
+  }
+  .project-side-three {
+    width: 100%;
+  }
+  .project-side-four {
+    width: 100%;
+  }
+  .main-content {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  .main-content-picture {
+    width: 100%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 2000px) {
+  .main-content-picture {
+    display: none;
+  }
 }

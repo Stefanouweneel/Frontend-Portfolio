@@ -24,4 +24,5 @@ $(document).ready(function() {
   }, function() {
     $('.project-nav-four').css('background-color', '');
   });
+
 });
