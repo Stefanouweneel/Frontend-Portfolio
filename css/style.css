@@ -12,6 +12,10 @@ nav .nav-wrapper {
   color: #344f63;
 }
 
+.button-collapse {
+  padding-right: 5%;
+}
+
 h5 {
   color: #F1A71E;
   font-size: 16px !important;
@@ -444,15 +448,25 @@ hr.three {
 
 @media screen and (min-width: 0px) and (max-width: 1000px) {
   .main-content-picture {
+    background: #F1A71E;
     width: 100%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
+  }
+  .divider-two {
+      height: 1px;
+      overflow: hidden;
+      background-color: #e0e0e0
   }
 }
 
 @media screen and (min-width: 1001px) and (max-width: 2000px) {
   .main-content-picture {
+    display: none;
+  }
+  .divider-two {
     display: none;
   }
 }

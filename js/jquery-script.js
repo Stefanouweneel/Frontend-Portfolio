@@ -1,5 +1,7 @@
 $(document).ready(function() {
   $('.modal-trigger').leanModal();
+  
+  $(".button-collapse").sideNav();
 
   $('.project-side-one').hover(function() {
     $('.project-nav-one').css('background-color', '#F1A71E');
